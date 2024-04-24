@@ -38,13 +38,13 @@ class Dot extends Point {
 class Customer {
   String name;
   int age;
-  String? location;
+  String? locations;
 
   // Name parameter constructor example
   //
-  Customer({required this.name, required this.age, this.location});
+  Customer({required this.name, required this.age, this.locations});
 
-  static final Customer origin = Customer(name: "", age: 0, location: "");
+  static final Customer origin = Customer(name: "", age: 0, locations: "");
 
   // Non Named Parameter constructor example
   //
